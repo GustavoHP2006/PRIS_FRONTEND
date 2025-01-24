@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  line-height: 1.6; /* Define uma altura de linha básica */
+  font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
+}
+
+ol, ul {
+  list-style: none; /* Remove os estilos de lista */
+}
+
+a {
+  text-decoration: none; /* Remove sublinhado de links */
+  color: inherit; /* Usa a cor do texto ao redor */
+}
+
+img {
+  max-width: 100%;
+  height: auto; /* Faz as imagens serem responsivas */
+}
+
+table {
+  border-collapse: collapse; /* Remove espaçamento entre bordas das células */
+  border-spacing: 0;
+}
