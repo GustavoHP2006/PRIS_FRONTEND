@@ -9,12 +9,18 @@
 				<span class="material-icons">keyboard_double_arrow_right</span>
 			</button>
 		</div>
-
-		<h3>RH</h3>
+		
+		<div class="menu">
+			<router-link to="/tarefas" class="button">
+				<span class="material-icons">add_task</span>
+				<span class="text">Tarefas</span>
+			</router-link>
+		</div>
+		<h3>Fiscal</h3>
 		<div class="menu">
 			<router-link to="/" class="button">
 				<span class="material-icons">home</span>
-				<span class="text">DCTF Web</span>
+				<span class="text">Web</span>
 			</router-link>
 		</div>
 

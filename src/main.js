@@ -13,11 +13,12 @@ import { useStore } from './stores/useStore'
 import piniaPersistedState from 'pinia-plugin-persistedstate';
 const app = createApp(App)
 const pinia = createPinia()
+import { mask } from 'vue-the-mask';
 
 pinia.use(piniaPersistedState)
 app.use(createPinia())
 app.use(router)
-
+app.directive('mask', mask);
 app.config.globalProperties.$store = useStore()
 app.config.globalProperties.$router = router
 app.config.globalProperties.$axios = axios
