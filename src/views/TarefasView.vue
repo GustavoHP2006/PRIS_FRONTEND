@@ -126,6 +126,7 @@ export default {
           headers: { Authorization: `Bearer ${this.$store.token}` },
         });
         this.tasks = response.data.tasks;
+        console.log(this.tasks)
       } catch (error) {
         console.error('Erro ao buscar tasks:', error);
       }
